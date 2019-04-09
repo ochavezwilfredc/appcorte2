@@ -26,8 +26,9 @@ $(function() {
 
     }
     
-    const campo_busqueda = document.getElementById('id_contenedor_buscar');
-    const contenedor = document.getElementById('id_contenedor_tabla');
+    var campo_busqueda = document.getElementById('id_contenedor_buscar'),
+        contenedor = document.getElementById('id_contenedor_tabla'),
+        tabla;
 
     tabla = new Handsontable(contenedor, {
         colWidths: 100,

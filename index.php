@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <h1>EJEMPLO DEL USO DE HANDSONTABLE HACIENDO USO DE LA BASE DE DATOS "CALIDAD DE LOS VINOS ROJOS"</h1>
+    <h1>HANDSONTABLE UTILIZANDO PHP, MySQL Y APACHE</h1>
    
     <!--Contenedor para la etiqueta buscar -->
     <input id="id_contenedor_buscar" type="search" placeholder="Buscar">
