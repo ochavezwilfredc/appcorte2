@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function() {
     function cargarInformacion(tabla) {
         var datos = [];
         var url = "getdata.php";
@@ -25,9 +25,9 @@ $(document).ready(function () {
         });
 
     }
-
-    const contenedor = document.getElementById('id_contenedor_tabla');
+    
     const campo_busqueda = document.getElementById('id_contenedor_buscar');
+    const contenedor = document.getElementById('id_contenedor_tabla');
 
     tabla = new Handsontable(contenedor, {
         colWidths: 100,
